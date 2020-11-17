@@ -1,14 +1,16 @@
-Setup
-Git Clone the project with: git clone https://github.com/shaniaakhan21/Portfolio
+Setup:
+1. Git Clone the project with: git clone https://github.com/shaniaakhan21/Portfolio
 
-Move to the base directory: cd shaniya_portfolio
+2. Move to the base directory: cd shaniya_portfolio
 
-Create a new python enveronment with: python -m venv myenv
+3 .Create a new python enveronment with: python -m venv myenv
 
-Activate enveronment with: myenv\Scripts\activate on windows, or source myenv/bin/activate on Mac and Linux.
+4. Activate enveronment with: myenv\Scripts\activate on windows, or source myenv/bin/activate on Mac and Linux.
 
-Install required dependences with: pip install -r requirements.txt.
+5. Install required dependences with: pip install -r requirements.txt.
 
-Make migrations with: python manage.py makemigrations and then python manage.py migrate.
+6. Make migrations with: python manage.py makemigrations and then python manage.py migrate.
 
-Run app localy with: python manage.py runserver.
+7. Run app localy with: python manage.py runserver.
+
+8. Link to my project : https://portfolio-shaniya-khan.herokuapp.com/
