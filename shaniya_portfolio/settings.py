@@ -168,4 +168,5 @@ EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 EMAIL_USE_TLS = True
 
 #heroku
-django_heroku.settings(locals())
+
+django_heroku.settings(config=locals(), staticfiles=False,logging=False)
